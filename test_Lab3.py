@@ -28,3 +28,21 @@ def test_bubble_sort_invalid():
     result = Lab3.bubble_sort(input_arr, 3)
 
     assert (result == [])
+
+def test_kmt():
+   result=[]
+   input_arr=[64,33,66,22,11,33,55,88,97,466,7]
+   result=Lab3.bubble_sort(input_arr,1)
+   assert (result==1)
+
+def test_hmh():
+    result=[]
+    input_arr=[]
+    result=Lab3.bubble_sort(input_arr,0)
+    assert result==0
+
+def test_akt():
+    result=[]
+    input_arr=['a','b','c',1.1]
+    result=Lab3.bubble_sort(input_arr,2)
+    assert result==2
